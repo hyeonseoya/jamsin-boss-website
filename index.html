@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>잠신중 방송부</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  </head>
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>잠신중 방송부</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#about">소개</a></li>
+        <li><a href="#request">신청곡</a></li>
+        <li><a href="#suggest">건의사항</a></li>
+        <li><a href="#contact" role="button">연락처</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div class="grid">
+        <section id="about">
+          <hgroup>
+            <h2>1984년, 잠신중학교의 개교와 함께 창립되어
+              40년의 유구한 역사를 자랑하는 잠신중학교 방송부(aka. BOSS)는
+              잠신중학교 3대 동아리 중 하나이며,
+              점심 방송, 교내 행사, 잠신제 등 학교 내 방송을 담당하는 동아리입니다.
+
+              2025년 현재 방송부장을 포함,
+              총 16명의 방송부원이 잠신중학교의 방송을 이끌어가고 있습니다.</h2>
+          </hgroup>
+          <p>
+            잠신중학교 방송부는 아침 조회, 점심시간, 교내 행사에서 활약하며 음악과 정보로 친구들과 소통합니다. 방송에 참여하고 싶다면 아래 신청곡이나 건의사항을 남겨주세요.
+          </p>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1581092160614-5c1b3f61ecae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="스튜디오 마이크 사진" />
+            <figcaption>
+              <a href="https://unsplash.com/photos/_dH-oQF9w-Y" target="_blank">출처: Unsplash</a>
+            </figcaption>
+          </figure>
+
+          <h3>방송 콘텐츠</h3>
+          <p>
+            다양한 장르의 음악, 창체 방송, 학교 소식 등을 방송으로 전달합니다.
+          </p>
+
+          <h3>참여 방법</h3>
+          <p>
+            아래 신청곡과 건의사항 폼을 통해 자유롭게 참여해주세요!
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <section id="request" aria-label="신청곡 제출 섹션">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>신청곡 보내기</h2>
+            <h3>듣고 싶은 노래를 알려주세요</h3>
+          </hgroup>
+          <form class="grid" action="https://docs.google.com/forms/d/e/1FAIpQLScqL2Aw32Jd-RXFs6gf2LXZ270huPTpDRv0owGbBrt3LspHBA/viewform" target="_blank">
+            <button type="submit">신청하러 가기</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <section id="suggest" aria-label="건의사항 제출 섹션">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>건의사항 보내기</h2>
+            <h3>방송에 대한 의견을 들려주세요</h3>
+          </hgroup>
+          <form class="grid">
+            <input type="text" id="name" name="name" placeholder="이름 또는 별명" aria-label="이름 또는 별명" required />
+            <input type="text" id="suggestion" name="suggestion" placeholder="건의 내용" aria-label="건의 내용" required />
+            <button type="submit" onclick="event.preventDefault()">제출하기</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <section id="notice" aria-label="공지사항">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>📢 공지사항</h2>
+            <h3>현재는 방학 기간입니다</h3>
+          </hgroup>
+          <p>새로운 학기에 다양한 방송과 함께 돌아오겠습니다. 즐거운 방학 보내세요!</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" aria-label="연락처 및 SNS">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>📨 방송부 연락처</h2>
+            <h3>문의는 언제든지 환영입니다</h3>
+          </hgroup>
+          <ul>
+            <li><strong>📍 주소:</strong> 서울시 송파구 잠실로 12 잠신중학교 1층 방송실</li>
+            <li><strong>✉️ 이메일:</strong> <a href="mailto:jamsinboss@gmail.com">jamsinboss@gmail.com</a></li>
+            <li><strong>📷 인스타그램:</strong> <a href="https://instagram.com/jamsinboss" target="_blank">@jamsinboss</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <footer class="container">
+      <small>
+        <a href="#">잠신중학교 공식 홈페이지</a> • <a href="mailto:jamsinboss@gmail.com">이메일로 문의하기</a>
+      </small>
+    </footer>
+  </body>
+</html>
